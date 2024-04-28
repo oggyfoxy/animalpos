@@ -1,10 +1,8 @@
 # AnimalPos
 
-Concevoir le prototype d’une solution de :
-  - Identification
-  - Positionnement
-  - (éventuellement, état de santé)
-pour animaux (chats, chiens, chevaux, vaches, ...)
+![image](https://github.com/oggyfoxy/animalpos/assets/72557460/91c37dc1-a79e-4154-a12d-5e3c781b2811)
 
 
-Outils utilisés: carte Arduino MKRWAN, mosquitto, Python et C++. 
+School project on creating an animal position tracking prototype to learn MQTT protocols. 
+
+Tools used: Arduino MKRWAN chip, mosquitto, Python and C++. 
