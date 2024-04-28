@@ -7,4 +7,4 @@ Concevoir le prototype d’une solution de :
 pour animaux (chats, chiens, chevaux, vaches, ...)
 
 
-Outils utilisés: carte Arduino MKRWAN, mosquitto et Python. 
+Outils utilisés: carte Arduino MKRWAN, mosquitto, Python et C++. 
