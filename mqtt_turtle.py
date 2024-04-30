@@ -33,24 +33,21 @@ def on_message(client, userdata, msg):
 
 def draw_grid():
     axis_turtle = turtle.Turtle()
-    axis_turtle.speed('fastest')  # Draw the grid as fast as possible
+    axis_turtle.speed('fastest')
     axis_turtle.penup()
 
-    # Draw vertical lines
     for x in range(-200, 201, 50):
         axis_turtle.goto(x, -200)
         axis_turtle.pendown()
         axis_turtle.goto(x, 200)
         axis_turtle.penup()
 
-    # Draw horizontal lines
     for y in range(-200, 201, 50):
         axis_turtle.goto(-200, y)
         axis_turtle.pendown()
         axis_turtle.goto(200, y)
         axis_turtle.penup()
 
-    # Draw axis lines
     axis_turtle.color('black')
     axis_turtle.goto(0, -200)
     axis_turtle.pendown()
@@ -61,7 +58,6 @@ def draw_grid():
     axis_turtle.goto(200, 0)
     axis_turtle.penup()
 
-    # Label the points on the axes
     for number in range(-200, 201, 50):
         axis_turtle.goto(number, -5)
         axis_turtle.write(str(number), align="center")
